@@ -1,0 +1,111 @@
+<template>
+<div class="container">
+    <h3 class="asu">ASU CONFIGURATOR</h3>
+    <div class = "col-md-12 spc">
+
+    <form>
+        <table class="mytable">
+            <tr>
+                <td><span class="bt">Project Code(TM Number)</span>
+                <span>:&nbsp;<input type="text"></span>
+                </td>
+           
+                <td><span class="bt">Facility Code</span>
+                <span>:&nbsp;<input type="text"></span>
+                </td>
+            </tr>
+
+            <tr>
+                <td><span class="bt">Client Name</span>
+                <span>:&nbsp;<input type="text"></span>
+                </td>
+           
+                <td><span class="bt">Facility Name</span>
+                <span>:&nbsp;<input type="text"></span>
+                </td>
+            </tr>
+
+             <tr>
+                <td><span class="bt">Plant Name</span>
+                <span>:&nbsp;<input type="text"></span>
+                </td>
+           
+                <td><span class="bt">Project Code</span>
+                <span>:&nbsp;<input type="text"></span>
+                </td>
+            </tr>
+
+            <tr>
+                <td><span class="bt">Project Name :&nbsp;</span>
+                <span><input type="text"></span>
+                </td>
+           
+                <td><span class="bt">Component Library Type</span>
+                <span>:&nbsp;<select style="-webkit-appearance: none; select">
+                         <option selected>Individual Facility Wise</option> 
+                         <option>pr 2</option>
+                         <option>Pr 3</option>
+                        </select>
+                </span>
+                </td>
+
+         
+            </tr>
+
+        </table>
+
+        <div>
+            <button class="sub">Submit</button>
+        </div>
+    </form>
+</div></div>
+</template>
+
+<style>
+.bt{
+    margin-left: 10px;
+    margin-right: 50px;
+}
+.spc{
+    border: 1px solid black;
+    padding: 50px 40px;
+}
+.mytable{
+    width:70%;
+}
+.mytable td{
+    padding:5px;
+}
+.mytable td:first-child{
+    border-right: 1px solid;
+}
+.sub{
+     width:5%;
+     height: 25%;
+    margin-left:35%;
+    margin-right:35%;
+    background: rgb(31, 101, 182);
+    margin-top: 20px;
+    padding: 5px 5px;
+}
+.asu{
+   text-align: center;
+   font-size: 40px;
+   margin: 100px;
+}
+
+input,select {
+  width: 40%;
+  height: 25px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  display: inline-block;
+  float: right;
+}
+/* form {
+  max-width: 30px;
+  width: 10%;
+  margin: auto;
+  padding: 10px;
+} */
+</style>
